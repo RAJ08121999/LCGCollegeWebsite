@@ -1,0 +1,50 @@
+.details{
+    /* margin-top: 100px; */
+    width: 100%;
+    margin-top: -100px;
+    display: flex;
+    
+    justify-content:space-around;
+    gap:50px;
+    align-items: center;
+    text-align: left;
+
+}
+.title{
+    /* color: grey; */
+    width: 50%;
+
+}
+.title p{
+    color: grey;
+}
+.student-banner-image{
+    width: 30%;
+    /* border: 2px solid red; */
+    overflow: hidden;
+    /* box-shadow: 0px 0px 2px black; */
+    
+    /* border-radius: 10px; */
+} 
+.student-banner-image img{
+    box-shadow: 0px 0px 2px black;
+    border-radius: 10px;
+} 
+
+@media screen and (max-width: 768px) {
+
+    .details{
+        flex-direction: column;
+        text-align: center;
+        margin-top: auto;
+    }
+
+    .student-banner-image{
+        width: 25%;
+        /* border: 2px solid red; */
+        overflow: hidden;
+    } 
+}
+
+
+
